@@ -122,28 +122,64 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 20px;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 90px;
+    width: auto;
+    transition: 0.3s;
 }
 
 .nav ul {
     display: flex;
-    gap: 20px;
+    gap: 35px;
 }
 
 .nav ul li a {
-    font-weight: 500;
+    font-weight: 600;
     color: var(--text-dark);
+    font-size: 0.95rem;
+    position: relative;
+    padding: 5px 0;
 }
 
 .nav ul li a:hover, .nav ul li a.active {
     color: var(--primary-red);
 }
 
+.nav ul li a.active::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 25px;
+    height: 2px;
+    background-color: var(--primary-red);
+}
+
 .btn-phone {
     background-color: var(--primary-red);
     color: var(--white);
-    padding: 8px 15px;
+    padding: 12px 30px;
     border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-shadow: 0 4px 15px rgba(139,0,0,0.2);
+}
+
+.btn-phone i {
+    background: var(--white);
+    color: var(--primary-red);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 0.9rem;
 }
 
