@@ -12,4 +12,39 @@ vijayanand14490@gmail.com
 
 Welcome to GitHub, krishnakumar-cmyk
 https://github.com/krishnakumar-cmyk
+
+GitHub Repository SettingsStep 3: Repository owner ആയ krishnakumar-cmyk ചെയ്യേണ്ടത്:
+1. GitHub → dance repository തുറക്കുക.
+2. Settings → Collaborators / Manage access തുറക്കുക.
+3. Add people ക്ലിക്ക് ചെയ്യുക.
+4. Vijay-Anand-A എന്ന് search ചെയ്യുക.
+5. Invite ചെയ്യുക.
+
+Vijay-Anand-A
+Step 2: ഈ link തുറക്കുക:
+Check Repository Invitations
+Step 3: ഈ link കൂടി തുറന്ന് നോക്കുക:
+GitHub Organizations
+
+								https://vercel.com/ open
+								login with github krishnakumar-cmyk
+
+								githubil file itta shesham 
+														D:\wamp8_4\www\vridhavan_dance>git add .
+														D:\wamp8_4\www\vridhavan_dance>git commit -m "websitedesign"
+														On branch main
+														nothing to commit, working tree clean
+														D:\wamp8_4\www\vridhavan_dance>git push -u origin main
+
+								create New+ project kodukkuga
+								select repository
+								import
+								Deploy 
+								continuew
+
+								if you check go to domain
+
+
+https://vercel.com/krishnakumar-cmyk/dance-fqle
+https://dance-fqle.vercel.app/
 	
