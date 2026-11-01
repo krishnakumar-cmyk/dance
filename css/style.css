@@ -134,11 +134,6 @@ img {
 
 .logo img {
     height: 120px;
-    width: auto;
-    background: white;
-    padding: 10px;
-    border-radius: 0 0 20px 20px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
 .nav ul {
@@ -569,21 +564,14 @@ img {
     gap: 30px;
 }
 
-.footer-logo {
-    background: white;
-    padding: 15px 25px;
-    border-radius: 20px;
-    flex: 0 0 auto;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-    transition: 0.3s;
-}
+
 
 .footer-logo:hover {
     transform: scale(1.05);
 }
 
 .footer-logo img {
-    height: 70px;
+    width: 253px;
 }
 
 .footer-info {
