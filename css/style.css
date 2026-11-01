@@ -658,9 +658,21 @@ img {
     .grid-3 { grid-template-columns: repeat(2, 1fr); }
     .grid-2 { grid-template-columns: 1fr; }
     .hero-text h1 { font-size: 2.5rem; }
+    .about-row { flex-direction: column; text-align: center; }
+    .about-right { text-align: center; }
+    .about-middle { width: 100%; }
+    .vertical-divider { display: none; }
 }
 
 @media (max-width: 768px) {
+    .header { height: auto; padding: 10px 0; }
+    .header-content { flex-wrap: wrap; justify-content: space-between; gap: 10px; }
+    .logo { margin-top: 0; order: 1; }
+    .logo img { height: 60px; padding: 5px; border-radius: 10px; }
+    .btn-phone { order: 2; margin-left: auto; margin-right: 10px; padding: 8px 15px; font-size: 0.85rem; gap: 8px; }
+    .btn-phone i { width: 24px; height: 24px; font-size: 0.7rem; }
+    .mobile-menu-btn { order: 3; display: block; }
+
     .nav {
         position: absolute;
         top: 100%;
@@ -671,6 +683,7 @@ img {
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.35s ease;
+        z-index: 999;
     }
     .nav.open { max-height: 420px; }
     .nav ul {
@@ -683,9 +696,34 @@ img {
         padding: 12px 25px;
         border-bottom: 1px solid #f0f0f0;
     }
-    .mobile-menu-btn { display: block; }
+
+    .hero { padding-top: 40px; min-height: auto; }
+    .hero-text h1 { font-size: 2.2rem; }
+    .hero-text p { font-size: 1rem; }
+
+    .categories { margin-top: -50px; }
+
+    .about-middle { text-align: left; padding: 0 10px; }
+    .feature-item { gap: 12px; }
+    .feature-icon { width: 44px; height: 44px; min-width: 44px; }
+    .feature-item h4 { font-size: 0.9rem; }
+
     .grid-3 { grid-template-columns: 1fr; }
-    .event-card { flex-direction: column; text-align: center; gap: 30px; }
-    .footer-content { flex-direction: column; text-align: center; }
+    .event-card { flex-direction: column; padding: 0; text-align: center; }
+    .event-image-side { width: 100%; height: 200px; }
+    .event-info { padding: 30px 20px; }
+    .event-info h3 { font-size: 1.6rem; }
+    .event-details { flex-direction: column; gap: 10px; }
+    .event-action { padding-bottom: 30px; }
+
+    .footer-content { flex-direction: column; text-align: center; gap: 30px; }
     .footer-info { flex-direction: column; gap: 20px; }
+    .footer .vertical-divider { display: none; }
+}
+
+@media (max-width: 480px) {
+    .section-title { font-size: 1.8rem; }
+    .hero-text h1 { font-size: 1.8rem; }
+    .btn-phone span { display: none; }
+    .btn-phone { padding: 8px 12px; }
 }
